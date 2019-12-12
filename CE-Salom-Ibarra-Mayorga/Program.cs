@@ -31,7 +31,8 @@ namespace CESIM
                 try
                 {
                     var context = services.GetRequiredService<CESIMContext>();
-                    context.Database.EnsureCreated();
+                    //context.Database.EnsureCreated();
+                    DbInitializer.Initialize(context);
                 }
                 catch (Exception ex)
                 {

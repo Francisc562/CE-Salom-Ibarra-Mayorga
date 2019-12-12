@@ -8390,11 +8390,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Francisco Ponce\\source\\repos\\CESIM\\CESIM.csproj",
+      "projectUniqueName": "C:\\Users\\Francisco Ponce\\Desktop\\CE-Salom-Ibarra-Mayorga\\CE-Salom-Ibarra-Mayorga\\CESIM.csproj",
       "projectName": "CESIM",
-      "projectPath": "C:\\Users\\Francisco Ponce\\source\\repos\\CESIM\\CESIM.csproj",
+      "projectPath": "C:\\Users\\Francisco Ponce\\Desktop\\CE-Salom-Ibarra-Mayorga\\CE-Salom-Ibarra-Mayorga\\CESIM.csproj",
       "packagesPath": "C:\\Users\\Francisco Ponce\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Francisco Ponce\\source\\repos\\CESIM\\obj\\",
+      "outputPath": "C:\\Users\\Francisco Ponce\\Desktop\\CE-Salom-Ibarra-Mayorga\\CE-Salom-Ibarra-Mayorga\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
