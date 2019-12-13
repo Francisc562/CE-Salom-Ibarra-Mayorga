@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ponce\\source\\repos\\Francisc562\\CE-Salom-Ibarra-Mayorga\\CE-Salom-Ibarra-Mayorga\\CESIM.csproj": {}
+    "C:\\Users\\ponce\\Desktop\\CE-Salom-Ibarra-Mayorga\\CE-Salom-Ibarra-Mayorga\\CESIM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ponce\\source\\repos\\Francisc562\\CE-Salom-Ibarra-Mayorga\\CE-Salom-Ibarra-Mayorga\\CESIM.csproj": {
+    "C:\\Users\\ponce\\Desktop\\CE-Salom-Ibarra-Mayorga\\CE-Salom-Ibarra-Mayorga\\CESIM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ponce\\source\\repos\\Francisc562\\CE-Salom-Ibarra-Mayorga\\CE-Salom-Ibarra-Mayorga\\CESIM.csproj",
+        "projectUniqueName": "C:\\Users\\ponce\\Desktop\\CE-Salom-Ibarra-Mayorga\\CE-Salom-Ibarra-Mayorga\\CESIM.csproj",
         "projectName": "CESIM",
-        "projectPath": "C:\\Users\\ponce\\source\\repos\\Francisc562\\CE-Salom-Ibarra-Mayorga\\CE-Salom-Ibarra-Mayorga\\CESIM.csproj",
+        "projectPath": "C:\\Users\\ponce\\Desktop\\CE-Salom-Ibarra-Mayorga\\CE-Salom-Ibarra-Mayorga\\CESIM.csproj",
         "packagesPath": "C:\\Users\\ponce\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ponce\\source\\repos\\Francisc562\\CE-Salom-Ibarra-Mayorga\\CE-Salom-Ibarra-Mayorga\\obj\\",
+        "outputPath": "C:\\Users\\ponce\\Desktop\\CE-Salom-Ibarra-Mayorga\\CE-Salom-Ibarra-Mayorga\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ponce\\AppData\\Roaming\\NuGet\\NuGet.Config",
