@@ -28,7 +28,21 @@ namespace CESIM
         public void ConfigureServices(IServiceCollection services)
         {
            
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddDefaultIdentity<IdentityUser>(options =>
+            {
+                
+                options.SignIn.RequireConfirmedAccount = true;
+
+                options.Lockout.MaxFailedAccessAttempts = 10;
+                options.Password.RequiredLength = 6;
+                options.Password.RequiredUniqueChars = 3;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = false;
+                options.User.RequireUniqueEmail = true;
+            })
+                
+
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddRazorPages();
             services.AddDbContext<ApplicationDbContext>(options =>
