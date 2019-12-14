@@ -1,6 +1,7 @@
 ﻿body {
 }
-.content {
+
+.containe {
     width: 12cm;
     border: outset 0.5px;
     border-radius: 5px;
@@ -8,4 +9,3 @@
     padding: 20px;
     margin-top: 1cm;
 }
-
