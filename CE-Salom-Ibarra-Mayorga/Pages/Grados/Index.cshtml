@@ -5,13 +5,13 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Grado</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create">Agregar un nuevo Grado</a>
 </p>
 <table class="table">
-    <thead>
+    <thead class="thead-dark">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Grado[0].Nivel)
@@ -39,7 +39,7 @@
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.gradoID">Editar</a> |
-                <a asp-page="./Details" asp-route-id="@item.gradoID">Detalles</a> |
+                <a asp-page="./Details" asp-route-id="@item.gradoID">Ver</a> |
                 <a asp-page="./Delete" asp-route-id="@item.gradoID">Eliminar</a>
             </td>
         </tr>

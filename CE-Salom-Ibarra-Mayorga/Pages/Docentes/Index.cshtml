@@ -5,13 +5,13 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Docentes</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create">Agregar un nuevo Docente</a>
 </p>
-<table class="table">
-    <thead>
+<table class="table" >
+    <thead class="thead-dark">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Docente[0].Nombres)
@@ -62,9 +62,9 @@
                 @Html.DisplayFor(modelItem => item.Direccion)
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.docenteID">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.docenteID">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.docenteID">Delete</a>
+                <a asp-page="./Edit" asp-route-id="@item.docenteID">Actualizar</a> |
+                <a asp-page="./Details" asp-route-id="@item.docenteID">Ver</a> |
+                <a asp-page="./Delete" asp-route-id="@item.docenteID">Eliminar</a>
             </td>
         </tr>
 }
