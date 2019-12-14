@@ -5,7 +5,7 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Listar Grados</h1>
+<h1>Details</h1>
 
 <div>
     <h4>Grado</h4>
@@ -18,14 +18,20 @@
             @Html.DisplayFor(model => model.Grado.Nivel)
         </dd>
         <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Grado.Seccion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Grado.Seccion)
+        </dd>
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Grado.Docente)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Grado.Docente.docenteID)
+            @Html.DisplayFor(model => model.Grado.Docente.Nombres)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.Grado.gradoID">Listar</a> |
-    <a asp-page="./Index">Volver a el menu principal</a>
+    <a asp-page="./Edit" asp-route-id="@Model.Grado.gradoID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
 </div>

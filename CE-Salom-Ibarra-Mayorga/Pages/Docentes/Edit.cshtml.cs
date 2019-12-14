@@ -30,7 +30,7 @@ namespace CESIM.Pages.Docentes
                 return NotFound();
             }
 
-            Docente = await _context.Docente.FirstOrDefaultAsync(m => m.docenteID == id);
+            Docente = await _context.Docentes.FirstOrDefaultAsync(m => m.docenteID == id);
 
             if (Docente == null)
             {
@@ -71,7 +71,7 @@ namespace CESIM.Pages.Docentes
 
         private bool DocenteExists(int id)
         {
-            return _context.Docente.Any(e => e.docenteID == id);
+            return _context.Docentes.Any(e => e.docenteID == id);
         }
     }
 }

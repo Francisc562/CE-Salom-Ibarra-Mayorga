@@ -5,16 +5,13 @@ using System.Threading.Tasks;
 
 namespace CESIM.Models
 {
-    public enum se
-    {
-        Masculino, Femenino,
-    }
+
     public class Docente
     {
         public int docenteID { get; set; }
         public string Nombres { get; set; }
         public string Apellidos { get; set; }
-        public se? Sexo { get; set; }
+        public string Sexo { get; set; }
         public string Especialidad { get; set; }
         public string Correo { get; set; }
         public string Telefono { get; set; }

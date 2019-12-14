@@ -36,7 +36,7 @@ namespace CESIM.Pages.Docentes
                 return Page();
             }
 
-            _context.Docente.Add(Docente);
+            _context.Docentes.Add(Docente);
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");

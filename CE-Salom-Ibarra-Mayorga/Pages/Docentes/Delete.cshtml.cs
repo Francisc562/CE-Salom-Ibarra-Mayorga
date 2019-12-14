@@ -29,7 +29,7 @@ namespace CESIM.Pages.Docentes
                 return NotFound();
             }
 
-            Docente = await _context.Docente.FirstOrDefaultAsync(m => m.docenteID == id);
+            Docente = await _context.Docentes.FirstOrDefaultAsync(m => m.docenteID == id);
 
             if (Docente == null)
             {
@@ -45,11 +45,11 @@ namespace CESIM.Pages.Docentes
                 return NotFound();
             }
 
-            Docente = await _context.Docente.FindAsync(id);
+            Docente = await _context.Docentes.FindAsync(id);
 
             if (Docente != null)
             {
-                _context.Docente.Remove(Docente);
+                _context.Docentes.Remove(Docente);
                 await _context.SaveChangesAsync();
             }
 

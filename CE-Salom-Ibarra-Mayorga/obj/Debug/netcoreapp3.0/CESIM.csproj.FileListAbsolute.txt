@@ -278,11 +278,6 @@ C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga
 C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\CESIM.csproj.CopyComplete
 C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\CESIM.dll
 C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\CESIM.pdb
-C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Grados\Create.cshtml.g.cs
-C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Grados\Delete.cshtml.g.cs
-C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Grados\Details.cshtml.g.cs
-C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Grados\Edit.cshtml.g.cs
-C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Grados\Index.cshtml.g.cs
 C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Tutores\Create.cshtml.g.cs
 C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Tutores\Delete.cshtml.g.cs
 C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Tutores\Details.cshtml.g.cs
@@ -293,11 +288,6 @@ C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga
 C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Estudiantes\Details.cshtml.g.cs
 C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Estudiantes\Edit.cshtml.g.cs
 C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Estudiantes\Index.cshtml.g.cs
-C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Matriculas\Create.cshtml.g.cs
-C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Matriculas\Delete.cshtml.g.cs
-C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Matriculas\Details.cshtml.g.cs
-C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Matriculas\Edit.cshtml.g.cs
-C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Matriculas\Index.cshtml.g.cs
 C:\Users\ponce\source\repos\Francisc562\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\bin\Debug\netcoreapp3.0\appsettings.Development.json
 C:\Users\ponce\source\repos\Francisc562\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\bin\Debug\netcoreapp3.0\appsettings.json
 C:\Users\ponce\source\repos\Francisc562\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
@@ -625,3 +615,20 @@ C:\Users\ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug
 C:\Users\ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Grados\Create.cshtml.g.cs
+C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Grados\Delete.cshtml.g.cs
+C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Grados\Details.cshtml.g.cs
+C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Grados\Edit.cshtml.g.cs
+C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Grados\Index.cshtml.g.cs
+C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Matriculas\Create.cshtml.g.cs
+C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Matriculas\Delete.cshtml.g.cs
+C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Matriculas\Details.cshtml.g.cs
+C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Matriculas\Edit.cshtml.g.cs
+C:\Users\Francisco Ponce\Desktop\CE-Salom-Ibarra-Mayorga\CE-Salom-Ibarra-Mayorga\obj\Debug\netcoreapp3.0\Razor\Pages\Matriculas\Index.cshtml.g.cs

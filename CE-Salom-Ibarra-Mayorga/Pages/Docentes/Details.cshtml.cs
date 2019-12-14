@@ -28,7 +28,12 @@ namespace CESIM.Pages.Docentes
                 return NotFound();
             }
 
-            Docente = await _context.Docente.FirstOrDefaultAsync(m => m.docenteID == id);
+            Docente = await _context.Docente
+          .Include(s => s.Grados)
+          .ThenInclude(e => e.Matriculas)
+
+          .AsNoTracking()
+          .FirstOrDefaultAsync(m => m.docenteID == id);
 
             if (Docente == null)
             {

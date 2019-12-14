@@ -5,10 +5,10 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Editar Docente</h1>
+<h1>Details</h1>
 
 <div>
-   
+    <h4>Docente</h4>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
@@ -53,9 +53,34 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Docente.Direccion)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Docente.Grados)
+        </dt>
+        <dd class="col-sm-10">
+            <table class="table">
+
+                @foreach (var item in Model.Docente.Grados)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nivel)
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Seccion)
+                        </td>
+
+                    </tr>
+                }
+
+            </table>
+        </dd>
+
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.Docente.docenteID">Editar</a> |
-    <a asp-page="./Index">Volver al menu principal</a>
+    <a asp-page="./Edit" asp-route-id="@Model.Docente.docenteID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
 </div>

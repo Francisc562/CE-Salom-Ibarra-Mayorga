@@ -23,7 +23,7 @@ namespace CESIM.Pages.Docentes
 
         public async Task OnGetAsync()
         {
-            Docente = await _context.Docente.ToListAsync();
+            Docente = await _context.Docentes.ToListAsync();
         }
     }
 }

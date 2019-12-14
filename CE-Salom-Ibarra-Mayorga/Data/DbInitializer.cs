@@ -22,13 +22,13 @@ namespace CESIM.Data
 
             var docentes = new Docente[]
             {
-                new Docente{Nombres="Martha Maria", Apellidos="Rocha Rodriguez", Sexo=se.Femenino, Especialidad="Matematica",
+                new Docente{Nombres="Martha Maria", Apellidos="Rocha Rodriguez", Sexo="Femenino", Especialidad="Matematica",
                 Correo="Marm@yahoo.es", Telefono="54858695", Direccion="CALLE AGUSTIN LARA NO. 69-B",},
-                new Docente{Nombres="Jose Bryan", Apellidos="Rodrigez Mercado", Sexo=se.Masculino, Especialidad="Educacion Fisica",
+                new Docente{Nombres="Jose Bryan", Apellidos="Rodrigez Mercado", Sexo="Masculino", Especialidad="Educacion Fisica",
                 Correo="JoseBry85@gmail.com", Telefono="85417563", Direccion="AV. INDEPENDENCIA NO. 241",},
-                new Docente{Nombres="Victoria Eugenia", Apellidos="Cuevas Jimenez", Sexo=se.Femenino, Especialidad="Ciencias Naturales",
+                new Docente{Nombres="Victoria Eugenia", Apellidos="Cuevas Jimenez", Sexo="Femenino", Especialidad="Ciencias Naturales",
                 Correo="victoeu@gmail.com", Telefono="55883221", Direccion="AV. 20 DE NOVIEMBRE NO.1024",},
-                new Docente{Nombres="Lidia Tereza", Apellidos="Aldana Aguirre", Sexo=se.Femenino, Especialidad="Lengua y Literatura",
+                new Docente{Nombres="Lidia Tereza", Apellidos="Aldana Aguirre", Sexo="Femenino", Especialidad="Lengua y Literatura",
                 Correo="litere@yahoo.com", Telefono="85472215", Direccion="Frente a Enacal",},
 
             };
@@ -40,10 +40,10 @@ namespace CESIM.Data
 
             var grados = new Grado[]
            {
-                new Grado{docenteID=1, Nivel=lev.Prescolar},
-                new Grado{docenteID=2, Nivel=lev.Primero},
-                new Grado{docenteID=3, Nivel=lev.Segundo},
-                new Grado{docenteID=4, Nivel=lev.Tercero},
+                new Grado{docenteID=1, Nivel=lev.Prescolar, Seccion=Seccion.A},
+                new Grado{docenteID=2, Nivel=lev.Primero, Seccion=Seccion.B},
+                new Grado{docenteID=3, Nivel=lev.Segundo, Seccion=Seccion.B},
+                new Grado{docenteID=4, Nivel=lev.Tercero, Seccion=Seccion.A},
 
            };
             foreach (Grado g in grados)
