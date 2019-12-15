@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using CESIM.Data;
 using CESIM.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CESIM.Pages.Docentes
 {
+    [Authorize]
     public class IndexModel : PageModel
     {
         private readonly CESIM.Data.CESIMContext _context;
