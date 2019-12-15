@@ -37,7 +37,7 @@ namespace CESIM.Pages.Estudiantes
             {
                 return NotFound();
             }
-           ViewData["tutorID"] = new SelectList(_context.Tutors, "tutorID", "tutorID");
+           ViewData["tutorID"] = new SelectList(_context.Tutors, "tutorID", "Nombres");
             return Page();
         }
 

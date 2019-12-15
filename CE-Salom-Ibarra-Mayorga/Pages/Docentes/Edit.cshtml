@@ -26,13 +26,26 @@
             </div>
             <div class="form-group">
                 <label asp-for="Docente.Sexo" class="control-label"></label>
-                <input asp-for="Docente.Sexo" class="form-control" />
-                <span asp-validation-for="Docente.Sexo" class="text-danger"></span>
+                <select asp-for="Docente.Sexo" class="form-control" asp-items="ViewBag.Sexo">
+                    <option>Selecione el Genero</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+
+                    >
+                </select>
             </div>
             <div class="form-group">
                 <label asp-for="Docente.Especialidad" class="control-label"></label>
-                <input asp-for="Docente.Especialidad" class="form-control" />
-                <span asp-validation-for="Docente.Especialidad" class="text-danger"></span>
+                <select asp-for="Docente.Especialidad" class="form-control" asp-items="ViewBag.Sexo">
+                    <option>Selecione la Especialidad</option>
+                    <option value="Lengua y Literatura">Lengua y Literatura</option>
+                    <option value="Matematica">Matematica</option>
+                    <option value="Ciencias Naturales">Ciencias Naturales</option>
+                    <option value="Educacion Fisica">Educacion Fisica</option>
+                    <option value="Estudios Sociales">Estudios Sociales</option>
+                    <option value="Ingles">Ingles</option>
+                    >
+                </select>
             </div>
             <div class="form-group">
                 <label asp-for="Docente.Correo" class="control-label"></label>

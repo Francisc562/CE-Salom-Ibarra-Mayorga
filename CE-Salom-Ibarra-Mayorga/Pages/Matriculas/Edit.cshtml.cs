@@ -38,8 +38,8 @@ namespace CESIM.Pages.Matriculas
             {
                 return NotFound();
             }
-           ViewData["estudianteID"] = new SelectList(_context.Estudiantes, "estudianteID", "estudianteID");
-           ViewData["gradoID"] = new SelectList(_context.Grados, "gradoID", "gradoID");
+           ViewData["estudianteID"] = new SelectList(_context.Estudiantes, "estudianteID", "Nombres");
+           ViewData["gradoID"] = new SelectList(_context.Grados, "gradoID", "Nivel");
             return Page();
         }
 

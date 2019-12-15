@@ -15,11 +15,15 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Matricula.gradoID" class="control-label"></label>
-                <select asp-for="Matricula.gradoID" class ="form-control" asp-items="ViewBag.gradoID"></select>
+                <select asp-for="Matricula.gradoID" class="form-control" asp-items="ViewBag.gradoID">
+                    <option>Selecione el grado</option>
+                </select>
             </div>
             <div class="form-group">
                 <label asp-for="Matricula.estudianteID" class="control-label"></label>
-                <select asp-for="Matricula.estudianteID" class ="form-control" asp-items="ViewBag.estudianteID"></select>
+                <select asp-for="Matricula.estudianteID" class="form-control" asp-items="ViewBag.estudianteID">
+                    <option>Nombre del Estudiante</option>
+                </select>
             </div>
             <div class="form-group">
                 <label asp-for="Matricula.Seccion" class="control-label"></label>

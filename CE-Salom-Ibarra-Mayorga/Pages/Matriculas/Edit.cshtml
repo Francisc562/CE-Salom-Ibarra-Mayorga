@@ -16,7 +16,8 @@
             <input type="hidden" asp-for="Matricula.matriculaID" />
             <div class="form-group">
                 <label asp-for="Matricula.gradoID" class="control-label"></label>
-                <select asp-for="Matricula.gradoID" class="form-control" asp-items="ViewBag.gradoID"></select>
+                <select asp-for="Matricula.gradoID" class="form-control" asp-items="ViewBag.gradoID">
+                </select>
                 <span asp-validation-for="Matricula.gradoID" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -26,7 +27,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="Matricula.Seccion" class="control-label"></label>
-                <select asp-for="Matricula.Seccion" class="form-control"></select>
+                <select asp-for="Matricula.Seccion" class="form-control">
+                    <option>Selecione un grado</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                </select>
                 <span asp-validation-for="Matricula.Seccion" class="text-danger"></span>
             </div>
             <div class="form-group">

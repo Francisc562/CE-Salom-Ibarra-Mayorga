@@ -21,7 +21,7 @@ namespace CESIM.Pages.Estudiantes
 
         public IActionResult OnGet()
         {
-        ViewData["tutorID"] = new SelectList(_context.Tutors, "tutorID", "tutorID");
+        ViewData["tutorID"] = new SelectList(_context.Tutors, "tutorID", "Nombres");
             return Page();
         }
 

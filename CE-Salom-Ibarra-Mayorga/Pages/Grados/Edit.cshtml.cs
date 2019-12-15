@@ -37,7 +37,7 @@ namespace CESIM.Pages.Grados
             {
                 return NotFound();
             }
-           ViewData["docenteID"] = new SelectList(_context.Docentes, "docenteID", "docenteID");
+           ViewData["docenteID"] = new SelectList(_context.Docentes, "docenteID", "Nombres");
             return Page();
         }
 
